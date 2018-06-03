@@ -1,0 +1,23 @@
+{
+  "name": "bdd-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -r steps/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris31389/api-bdd-release-test.git"
+  },
+  "author": "Chris Butler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris31389/api-bdd-release-test/issues"
+  },
+  "homepage": "https://github.com/chris31389/api-bdd-release-test#readme",
+  "devDependencies": {
+    "cucumber": "^4.2.1",
+    "request": "^2.87.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris31389/api-bdd-release-test.git"
+  },
+  "author": "Chris Butler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris31389/api-bdd-release-test/issues"
+  },
+  "homepage": "https://github.com/chris31389/api-bdd-release-test#readme",
+  "dependencies": {
+    "json-server": "^0.13.0"
+  }
+}
